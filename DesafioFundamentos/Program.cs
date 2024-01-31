@@ -32,6 +32,7 @@ while (exibirMenu)
     switch (Console.ReadLine())
     {
         case "1":
+            Console.WriteLine("Digite a placa do veículo: ");
             es.AdicionarVeiculo();
             break;
 
@@ -52,8 +53,8 @@ while (exibirMenu)
             break;
     }
 
-    Console.WriteLine("Pressione uma tecla para continuar");
+    Console.WriteLine("Pressione " + "ENTER" + " para continuar");
     Console.ReadLine();
 }
 
-Console.WriteLine("O programa se encerrou");
+Console.WriteLine("O programa se encerrou, obrigado por estacionar na Avanade Parking!!");
